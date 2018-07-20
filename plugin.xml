@@ -19,13 +19,4 @@
             <preference name="AppName" value="$APP_NAME"/>
         </config-file>
     </platform>
-
-    <platform name="ios">
-        <config-file target="*-Info.plist" parent="CFBundleName">
-            <string>$APP_NAME</string>
-        </config-file>
-        <config-file target="*-Info.plist" parent="CFBundleDisplayName">
-            <string>$APP_NAME</string>
-        </config-file>
-    </platform>
 </plugin>
